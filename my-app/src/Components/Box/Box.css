@@ -1,0 +1,39 @@
+.fourth_1 {
+    width: 30%;
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/08/15/08/owl-4461236_960_720.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.span_category {
+    color: #5CFF5E;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+.fourth_header {
+    color: red;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p_text {
+    color: #FFF81F;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 107%;
+}
+
+.read_more {
+    width: 105px;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.shadow {
+    box-shadow: 10px 10px grey;
+}

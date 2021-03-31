@@ -1,0 +1,82 @@
+.flex {
+    
+    display: flex;
+}
+.second {
+        align-items: center;
+        height: 60px;
+        margin-top: 20px;
+    }
+.logo-outside {
+        flex-grow: 2;
+    }
+.logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 115px;
+    }
+    .input-outside {
+        flex-grow: 6;
+        margin-bottom: 3%;
+    }
+    
+    .input {
+        width: 60%;
+        border: 2px solid black;
+        margin-left: 7%;
+    }
+    
+    .loupe {
+        width: 30px;
+        border: 2px solid black;
+    }
+    .icons {
+        flex-grow: 2;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 30px;
+    }
+    
+    .icon {
+        width: 20px;
+        height: auto;
+    }
+    
+    .boxes {
+        margin: 15px;
+    }
+    
+    .box {
+        border: 1.5px solid black;
+        width: 100%;
+        text-align: center;
+    }
+    .menu {
+        padding-left: 3%;
+        display: none;
+    }
+    
+    .menu_a {
+        padding-left: 50%;
+    }
+    .second_and_boxes:hover .menu_a {
+        padding-left: 32%;
+    }
+    
+    .second_and_boxes:hover .menu {
+        display: flex;
+    }
+    .input-outside {
+        margin-top: 30px;
+    }
+    .shadow {
+        box-shadow: 10px 10px grey;
+    }
+    .box_d {
+        border: 1px solid black;
+        display: none;
+    }
+    
+    .box:hover .box_d {
+        display: block;
+    }
